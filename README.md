@@ -13,6 +13,8 @@ To use the library and the plugins you will need to load the stylesheet file and
 
 ![alt tag](https://raw.githubusercontent.com/allendecid/WorldMap.js/master/worldmap.png)
 
+For more examples be sure to visit: [WorldMapjs.org](http://worldmapjs.org "Worldmap.js")
+
 ## Installation
 
 For WorldMap.js to function properly you will have to set the following dependencies.
