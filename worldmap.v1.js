@@ -7,7 +7,8 @@ var done = false;
     mapstyle: {
         ocean: "#5F8791",
         region: "#F3F3F3",
-        border : "#ffffff"
+        border : "#ffffff",
+	globe : "lightblue"
     },
     project: {
         //name: "Orthographic",
@@ -403,7 +404,7 @@ saveText( JSON.stringify(save), "filename.json" );
     
 
  
-       $(settings.elementid+' .ocean').css('fill', settings.mapstyle.ocean);
+       $(settings.elementid+' .ocean').css('fill', settings.mapstyle.globe);
       $(settings.elementid).css('background-color', settings.mapstyle.ocean);
     $(settings.elementid+' #states').css('fill', settings.mapstyle.region);
       $(settings.elementid+' #state-borders').css('stroke', settings.mapstyle.border);
