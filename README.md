@@ -9,7 +9,14 @@ You can choose from more than 26 projections and 30 countries, and select your d
 
 To use the library and the plugins you will need to load the stylesheet file and the javascript file into your website or computer. You will also have to load the following dependencies.
 
+## Screenshot
+
+![alt tag](https://raw.githubusercontent.com/allendecid/WorldMap.js/master/worldmap.png)
+
 ## Installation
+
+For WorldMap.js to function properly you will have to set the following dependencies.
+
 ```
  <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -26,14 +33,14 @@ To use the library and the plugins you will need to load the stylesheet file and
  ```
 For a correct load, you should put the javascript file right before the body tag and the WorldMap object.
 ```
-<div id="mapcontainer" align="center"> <!-- You can place the container wherever you want, but it has to be before loading the code-->
+<div id="mapcontainer" align="center"> <!-- You can place the container wherever you want, but it has to be above the worldmap.js files-->
 <link rel="stylesheet" href="css/worldmap.v1.css"> 
 <script src="js/worldmap.v1.js"></script>
 <script>
 var createmap = new Worldmap({  
     elementid: "#mapcontainer",
    });
-   
+   </body>
 ```
 ## Configuration
 
